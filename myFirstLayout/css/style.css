@@ -1,0 +1,61 @@
+body{
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+#header1{
+    margin: 0px 10%;
+    border: 1px solid green;
+    background-image: url(/myFirstLayout/assests/images/MaskGroup.png);
+    background-color: #F9FFF2;
+    background-size: cover;
+
+}
+
+.button {
+    width: 90px;
+    border-radius: 5px;
+    font-family: 'DM Sans';
+    color: white;
+    background-color: blue;
+    text-align: center;    
+    display: inline-block;    
+}
+
+#nav1{
+    margin: 0px 20%;
+    width: auto;
+    height: 90px;
+    /*border: 1px solid purple;*/
+}
+
+#div1{
+    margin: 0px 25%;
+    /*border: 1px solid blue;*/
+    text-align: center;
+    padding-top: 20px;
+}
+
+#header2{
+    margin: 0px 10%;
+    /*border: 1px solid green;*/
+    font-size: 190%;
+}
+
+#nav3{
+    margin: 0px 25%;
+    font-size: 70%;
+    text-align: center;
+    padding-bottom: 8%;
+    padding-top: 1%;
+
+}
+
+nav ul li{
+    float: right;
+    text-align: right;
+    list-style: none;
+    margin: 10px;
+
+}
+
