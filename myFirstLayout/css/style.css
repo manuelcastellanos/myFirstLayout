@@ -13,8 +13,9 @@ body{
 }
 
 .button {
-    width: 90px;
+    width: 80px;
     border-radius: 5px;
+    display: flex;
     font-family: 'DM Sans';
     color: white;
     background-color: blue;
@@ -25,9 +26,15 @@ body{
 #nav1{
     margin: 0px 20%;
     width: auto;
-    height: 90px;
+    height: 90px;      
     /*border: 1px solid purple;*/
 }
+
+/*nav ul li{
+    display: flex;    
+    flex-direction: row; 
+    }
+*/
 
 #div1{
     margin: 0px 25%;
@@ -59,3 +66,54 @@ nav ul li{
 
 }
 
+#main1{
+    border: 1px solid red;
+    margin: 0px 10%;
+}
+
+#section1{ 
+    display:flex;
+    flex-direction: row;   
+    border: 1px solid purple ;
+    margin: 0px 25%;
+    padding-top: 10px;
+    flex-wrap: wrap;
+}
+
+article{
+    /*display: inline-block; "Se utiliza cuando no estas usando flex"*/
+    border: 1px solid burlywood;
+}
+
+#article2{
+
+    background-color: blue;
+}
+
+.buttonplans{
+    width: 150px;
+    border-radius: 5px;
+    display: flex;
+    font-family: 'DM Sans';
+    color: white;
+    background-color:blue;
+    text-align: center;    
+    display: inline-block; 
+}
+
+.buttonplans2{
+    width: 150px;
+    border-radius: 5px;
+    display: flex;
+    font-family: 'DM Sans';
+    color: blue;
+    background-color:white;
+    text-align: center;    
+    display: inline-block; 
+}
+
+/*
+Datos importantes sobre flex:
+display:propiedad;
+flex-direction:propiedad;
+*/
